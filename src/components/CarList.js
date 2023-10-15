@@ -1,5 +1,5 @@
 function CarList() {
-  return <div>CarList</div>;
+  return <div>CarLists</div>;
 }
 
 export default CarList;
