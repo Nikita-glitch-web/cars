@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { changeName, changeCost, addCar } from '../store';
 
-function CarForm() {
+export const CarForm = () =>  {
     const dispatch = useDispatch();
     const {name, cost} = useSelector((state) => {
         return {
@@ -56,4 +56,3 @@ function CarForm() {
     );
 }
 
-export default CarForm;
